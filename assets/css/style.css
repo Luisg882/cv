@@ -33,6 +33,16 @@ h4 {
     display: block;
 }
 
+.row-table {
+    display: table;
+}
+
+.section-colum {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
 /*Header */
 
 .logo {
@@ -190,4 +200,17 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/* Main section */
+
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
+.section-heading {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
