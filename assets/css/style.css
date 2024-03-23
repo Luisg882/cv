@@ -143,6 +143,76 @@ h4 {
     letter-spacing: 2px;
 }
 
+/* Personal Info */
+
+.bg-color-personal-info{
+    background-color: #e7e2e293;
+}
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+
+
+/* Skills */
+
+body .progress {
+    position: relative;
+    margin-bottom: 4px;
+    height: 25px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 100;
+    padding: 12px 12px 13px 5px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.my-skills {
+    margin-bottom: 30px;
+}
+
+.progress-section.row {
+    margin-left: 20px;
+}
+
+.skills-section {
+    margin-bottom: 50px;
+}
+
 /* Hover.css*/
 
 a.hvr-sweep-to-bottom:before {
@@ -202,7 +272,7 @@ footer {
     padding: 20px;
 }
 
-/* Main section */
+/* Three reasons */
 
 .bg-color-three-reasons {
     background-color: #fff;
@@ -213,4 +283,13 @@ footer {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
